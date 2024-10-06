@@ -1,0 +1,27 @@
+{
+    "name": "my-org/my-app",
+    "description": "[Bug]: DescribeCall class is missing with method",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "3.2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Shryock",
+            "email": "paul@pshry.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.3.12"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    }
+}
